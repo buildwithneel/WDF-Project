@@ -437,7 +437,6 @@ WDF-Project/
 
 ### Team Members
 - **Neel Agrawal** — `25DIT002`
-- **Bhavya Makwana** — `25DIT029`
 
 ---
 
