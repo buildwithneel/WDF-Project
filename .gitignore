@@ -1,0 +1,69 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment & Sensitive Credentials
+.env
+.env.backup
+.env.*.local
+.env.production
+*.key
+*.pem
+*.cert
+*.crt
+
+# Build Artifacts & Symlinks
+/public/build
+/public/hot
+/public/storage
+
+# Testing & Cache
+.phpunit.result.cache
+.phpunit.cache/
+
+# Laravel Storage & Framework Compiled Files
+/storage/*.key
+/storage/app/*
+!/storage/app/public/
+!/storage/app/.gitignore
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/data/
+!/storage/framework/cache/.gitignore
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Bootstrap Cache
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Local Database Files
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs & Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS Metadata
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
